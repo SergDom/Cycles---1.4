@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Задание 1");
+        System.out.println();
         int count1 = 0;
 
         while (count1 < 10) {
@@ -11,13 +12,14 @@ public class Main {
         System.out.println();
 
         int count2 = 11;
-        for (; count2 > 0; ) {
+        for (; count2 > 0;) {
             count2 = count2 - 1;
             System.out.print(count2 + " ");
 
         }
         System.out.println();
         System.out.println("Задание 2");
+        System.out.println();
 
         int friday = 5;
         for (; friday <= 31; friday = friday +7) {
@@ -27,26 +29,28 @@ public class Main {
 
         System.out.println();
         System.out.println("Задание 3");
+        System.out.println();
 
-        int firstYear = 79;
+        int firstYear =79;
         int currentYear =2022;
         int yearBefore = currentYear - 200;
         int yearAfter = currentYear + 100;
 
-        for (firstYear=79; firstYear<= yearAfter; firstYear = firstYear + 79 )
+        for (; firstYear<= yearAfter; firstYear = firstYear + 79 )
             if (firstYear >= yearBefore && firstYear <= yearAfter) {
            System.out.println(firstYear); }
 
         System.out.println();
         System.out.println("Задание 4");
+        System.out.println();
 
         int i = 30;
-        for (i=1; i<=30; i++)
+        for (i=0; i<=30; i++)
             if (i%3 ==0) {
-                System.out.println( i + " Ping");
-                if (i%5 ==0)
-                   System.out.println( i + " Pong");
-            }
+                System.out.println(i + " Ping");
+            if (i%5 ==0)
+                System.out.println(i +" Pong"); }
+
 
         }
 
