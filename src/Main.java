@@ -37,6 +37,17 @@ public class Main {
             if (firstYear >= yearBefore && firstYear <= yearAfter) {
            System.out.println(firstYear); }
 
+        System.out.println();
+        System.out.println("Задание 4");
+
+        int i = 30;
+        for (i=1; i<=30; i++)
+            if (i%3 ==0) {
+                System.out.println( i + " Ping");
+                if (i%5 ==0)
+                   System.out.println( i + " Pong");
+            }
+
         }
 
 
