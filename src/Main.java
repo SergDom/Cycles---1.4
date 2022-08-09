@@ -25,6 +25,19 @@ public class Main {
 
             }
 
+        System.out.println();
+        System.out.println("Задание 3");
+
+        int firstYear = 79;
+        int currentYear =2022;
+        int yearBefore = currentYear - 200;
+        int yearAfter = currentYear + 100;
+
+        for (firstYear=79; firstYear<= yearAfter; firstYear = firstYear + 79 )
+            if (firstYear >= yearBefore && firstYear <= yearAfter) {
+           System.out.println(firstYear); }
+
         }
+
 
     }
