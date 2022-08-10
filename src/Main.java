@@ -46,21 +46,14 @@ public class Main {
 
         int i = 30;
         for (i=0; i<=30; i++)
-            if (i%3 ==0) {
-                if (i % 5 == 0) {
-                    System.out.println(i + " Ping" + " Pong");
-                } else {
-                    System.out.println("Pong");
-                }
-                if (i % 5 == 0) {
-                    System.out.println(i + " Ping");
-                } else {
-                    System.out.println(i + " Ping");
-                }
+            if (i % 3 ==0 && i % 5 == 0)
+                 { System.out.println(i + " Ping" + " Pong");}
+                if  (i % 3 == 0) {System.out.println(i + " Ping");}
+                else {System.out.println(i-1);}
             }
 
 
 
 
-        }
+
 }
