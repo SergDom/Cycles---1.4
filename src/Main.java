@@ -48,12 +48,10 @@ public class Main {
         for (i=0; i<=30; i++)
             if (i % 3 ==0 && i % 5 == 0)
                  { System.out.println(i + " Ping" + " Pong");}
-                if  (i % 3 == 0) {System.out.println(i + " Ping");}
-                else {System.out.println(i-1);}
+                else if  (i % 3 == 0) {System.out.println(i + " Ping");}
+                else if (i % 5 == 0) {System.out.println(i + " Pong");}
+                else {System.out.println(i);}
             }
-
-
-
 
 
 }
