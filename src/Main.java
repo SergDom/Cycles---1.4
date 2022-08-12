@@ -6,15 +6,13 @@ public class Main {
         int count1 = 0;
 
         while (count1 < 10) {
-            count1 = count1 + 1;
+            count1 = ++count1;
             System.out.print(count1 + " ");
         }
         System.out.println();
 
-        int count2 = 11;
-        for (; count2 > 0;) {
-            count2 = count2 - 1;
-            System.out.print(count2 + " ");
+        for (; count1 > 0;count1--) {
+            System.out.print(count1 + " ");
 
         }
         System.out.println();
